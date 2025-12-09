@@ -1,0 +1,54 @@
+MIT License
+
+Copyright (c) 2025 CarBot Object Collection System
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Third-Party Libraries
+
+This project uses the following third-party libraries:
+
+### I2Cdevlib-MPU6050
+- Author: Jeff Rowberg
+- License: MIT License
+- Repository: https://github.com/jrowberg/i2cdevlib
+- Used for: MPU6050 IMU interface and control
+
+### PID Library
+- Author: Brett Beauregard
+- License: MIT License  
+- Repository: https://github.com/br3ttb/Arduino-PID-Library
+- Used for: PID control algorithms for motion control
+
+### Arduino Core Libraries
+- Wire Library (I2C communication)
+- Servo Library (Servo motor control)
+- Standard Arduino libraries are provided under various open-source licenses
+
+## Hardware Components
+
+This software is designed to work with common, commercially available hardware:
+- Arduino Uno/Nano/Pro Mini (Atmel ATmega328P)
+- MPU6050 6-axis IMU
+- HC-SR04 Ultrasonic Distance Sensor
+- TB6612FNG Motor Driver
+- Standard RC Servo Motors
+- DC Gear Motors
+
+No proprietary hardware is required.
